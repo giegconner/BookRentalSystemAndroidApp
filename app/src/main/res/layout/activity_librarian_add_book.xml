@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/librarianBookTitleEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/bookTitleHint"
+        android:layout_gravity="center">
+    </EditText>
+
+    <EditText
+        android:id="@+id/librarianAuthorEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/authorHint"
+        android:layout_gravity="center">
+    </EditText>
+
+    <EditText
+        android:id="@+id/librarianFeePerHourEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/feePerHourHint"
+        android:inputType="numberDecimal"
+        android:layout_gravity="center">
+    </EditText>
+
+    <Button
+        android:id="@+id/librarianAddBookBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/addBook"
+        android:layout_gravity="center">
+    </Button>
+
+    <TextView
+        android:id="@+id/librarianValidBookMessageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/colorRed"
+        android:layout_gravity="center">
+    </TextView>
+
+    <Button
+        android:id="@+id/librarianOkBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        android:layout_gravity="center"
+        android:visibility="gone">
+    </Button>
+
+</LinearLayout>

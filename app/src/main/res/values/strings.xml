@@ -1,0 +1,65 @@
+<resources>
+
+    <string name="app_name">Book Rental System for CSUMB Library</string>
+    <string name="customerCreate">Create Account</string>
+    <string name="customerLogin">Customer Login</string>
+    <string name="librarianLogin">Librarian Login</string>
+    <string name="librarianLogs">Librarian Logs</string>
+    <string name="placeHold">Place Hold</string>
+    <string name="cancelHold">Cancel Hold</string>
+    <string name="manageSystem">Manage System</string>
+    <string name="addBook">Add Book</string>
+
+    <string name="usernameHint">Username</string>
+    <string name="passwordHint">Password</string>
+    <string name="ok">OK</string>
+    <string name="confirm">Confirm</string>
+    <string name="exit">Exit</string>
+    <string name="login">Login</string>
+
+    <string name="loginErrorMessage"></string>
+
+    <string name="title_activity_customer_create">Customer Create</string>
+    <string name="title_activity_customer_place_hold">Customer Place Hold</string>
+    <string name="title_activity_customer_cancel_hold">Customer Cancel Hold</string>
+    <string name="title_activity_librarian_login">Librarian Login</string>
+    <string name="title_activity_librarian_logs">Librarian Logs</string>
+    <string name="title_activity_librarian_add_book">Librarian Add Book</string>
+    <string name="title_activity_librarian_confirmation">Librarian Confirmation</string>
+    <string name="title_activity_customer_fail">Customer Fail</string>
+    <string name="title_activity_customer_login">Customer Login</string>
+    <string name="title_activity_customer_confirmation">Customer Confirmation</string>
+
+    <string name="pickupDateHint">Select pickup date</string>
+    <string name="returnDateHint">Select return date</string>
+    <string name="bookTitleHint">Book Title</string>
+    <string name="authorHint">Author</string>
+    <string name="feePerHourHint">Fee Per Hour</string>
+    <string name="pickupDate">Pickup Date:</string>
+    <string name="pickupTime">Pickup Time:</string>
+    <string name="returnDate">Return Date:</string>
+    <string name="returnTime">Return Time:</string>
+    <string name="searchBook">Search</string>
+
+    <string-array name="time_array">
+        <item>8:00 AM</item>
+        <item>9:00 AM</item>
+        <item>10:00 AM</item>
+        <item>11:00 AM</item>
+        <item>12:00 PM</item>
+        <item>1:00 PM</item>
+        <item>2:00 PM</item>
+        <item>3:00 PM</item>
+        <item>4:00 PM</item>
+        <item>5:00 PM</item>
+        <item>6:00 PM</item>
+        <item>7:00 PM</item>
+        <item>8:00 PM</item>
+        <item>9:00 PM</item>
+        <item>10:00 PM</item>
+        <item>11:00 PM</item>
+    </string-array>
+
+
+
+</resources>

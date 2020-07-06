@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.csumb.cgieg.mainmenu">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainMenu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="edu.csumb.cgieg.mainmenu.CustomerCreate"
+            android:label="@string/title_activity_customer_create">
+        </activity>
+
+        <activity
+            android:name="edu.csumb.cgieg.mainmenu.CustomerPlaceHold"
+            android:label="@string/title_activity_customer_place_hold">
+        </activity>
+
+        <activity
+            android:name="edu.csumb.cgieg.mainmenu.CustomerLogin"
+            android:label="@string/title_activity_customer_login">
+        </activity>
+
+        <activity
+            android:name="edu.csumb.cgieg.mainmenu.CustomerConfirmation"
+            android:label="@string/title_activity_customer_confirmation">
+        </activity>
+
+        <activity
+            android:name="edu.csumb.cgieg.mainmenu.CustomerCancelHold"
+            android:label="@string/title_activity_customer_cancel_hold">
+        </activity>
+
+        <activity
+            android:name="edu.csumb.cgieg.mainmenu.LibrarianLogin"
+            android:label="@string/title_activity_librarian_login">
+        </activity>
+
+        <activity
+            android:name="edu.csumb.cgieg.mainmenu.LibrarianLogs"
+            android:label="@string/title_activity_librarian_logs">
+        </activity>
+
+        <activity
+            android:name="edu.csumb.cgieg.mainmenu.LibrarianAddBook"
+            android:label="@string/title_activity_librarian_add_book">
+        </activity>
+
+        <activity
+            android:name="edu.csumb.cgieg.mainmenu.LibrarianConfirmation"
+            android:label="@string/title_activity_librarian_confirmation">
+        </activity>
+    </application>
+
+</manifest>
