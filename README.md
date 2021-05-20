@@ -1,6 +1,6 @@
 # BookRentalSystemAndroidApp
 
-Steps to view this project
+Steps to view this project (username: Admin2 / password: Admin2)
 1. Download the zip file of this project
 2. Extract the saved zip file of this project
 3. Open Android Studio
